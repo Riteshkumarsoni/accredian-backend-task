@@ -1,0 +1,11 @@
+POST http://localhost:3000/refer/
+Content-Type: application/json
+{
+    "mobile_no": 1234567891,
+    "name": "Ritesh",
+    "email": "ritesh1@gmail.com"    
+}
+
+###
+
+GET http://localhost:3000/show
