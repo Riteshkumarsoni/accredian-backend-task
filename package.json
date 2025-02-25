@@ -4,7 +4,8 @@
   "description": "- Introduction to Node JS - Running JS Outside Browser   - Node REPL   - Node CLI - Common JS Modules   - Default Exports     - module.exports   - Named Exports     - exports   - Importing Modules     - requires() - Common JS Modules   - Default Exports     - module.exports   - Named Exports     - exports   - Importing Modules     - requires()",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
