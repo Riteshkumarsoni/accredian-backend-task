@@ -44,3 +44,7 @@ app.get('/show', async (request, response) => {
   const responseData = await db.all(getdataQuery)
   response.send(responseData)
 })
+
+app.get("/msg", (req, res) => {
+  response.send("It is just for trying whether this method is working or not after deploying")
+})
